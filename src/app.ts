@@ -6,7 +6,7 @@ import { swagger } from '@elysiajs/swagger';
 import itemRoutes from './routes/itemRoutes';
 
 const app = new Elysia()
-	.use(Logestic.preset("common"))
+	.use(Logestic.preset("fancy"))
 	.use(swagger())
 	.use(itemRoutes);
 
