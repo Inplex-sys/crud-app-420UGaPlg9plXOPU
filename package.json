@@ -16,6 +16,7 @@
     "@types/bun": "^1.2.4",
     "dotenv": "^16.0.0",
     "elysia": "^1.2.23",
+    "logestic": "^1.2.4",
     "mongodb": "^6.0.0"
   },
   "devDependencies": {
