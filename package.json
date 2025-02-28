@@ -1,0 +1,27 @@
+{
+  "name": "bun-elysia-mongodb-app",
+  "version": "1.0.0",
+  "description": "A simple NodeJS application using Elysia.js and MongoDB with environment-specific configurations.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "bun src/app.ts",
+    "dev": "bun src/app.ts --env development",
+    "release": "bun src/app.ts --env release",
+    "prod": "bun src/app.ts --env production",
+    "build": "bun build --compile ."
+  },
+  "dependencies": {
+    "@elysiajs/swagger": "^1.2.2",
+    "@prisma/client": "^6.4.1",
+    "@types/bun": "^1.2.4",
+    "dotenv": "^16.0.0",
+    "elysia": "^1.2.23",
+    "mongodb": "^6.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "ts-node": "^10.9.2"
+  },
+  "license": "MIT",
+  "author": "Inplex-sys"
+}
